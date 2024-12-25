@@ -21,7 +21,7 @@ go: creating new go.mod: module github.com/liztio/cluster-api-provider-mailgun
 ## Generate controller scaffolding
 
 ```bash
-kubebuilder init --domain cluster.x-k8s.io
+kubebuilder init --domain cluster.x-k8s.io --plugins=go/v4
 ```
 
 `kubebuilder init` will create the basic repository layout, including a simple containerized manager.
